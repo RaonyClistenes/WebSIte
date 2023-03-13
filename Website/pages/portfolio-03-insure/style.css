@@ -1,0 +1,138 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.img-hero {
+    width: 1110px;
+    height: 500px;
+}
+
+.descrição {
+    display: flex;
+    flex-direction: row;
+    width: 99.9%;
+    justify-content: center;
+    gap: 128px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 498px;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 635px;
+    height: 1192px;
+    gap: 30px;
+}
+
+.titulo-principal {
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    color: Ibarra Real Nova;
+}
+
+.titulo-final {
+    font-size: 32px;
+    font-family: Ibarra Real Nova;
+    color: rgba(51, 50, 61, 1);
+    line-height: 42px;
+    font-weight: 400;
+
+}
+
+.paragrafo-aside {
+    font-size: 16px;
+    color: rgba(51, 50, 61, 1);
+    width: 350px;
+    height: 120px;
+}
+
+.paragrafo-main {
+    display: flex;
+    font-size: 16px;
+    color: rgba(51, 50, 61, 1);
+    width: 635px;
+    height: 250px;
+    align-items: center;
+}
+
+.prewiew-img {
+    width: 635px;
+    height: 400px;
+}
+
+.frases-destacadas {
+    color: rgba(95, 180, 162, 1);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    height: 48px;
+    color: #33323D;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 1px solid;
+}
+
+.link {
+    display: flex;
+    width: 82.7%;
+    justify-content: center;
+    align-items: center;
+    gap: 750px;
+    height: 132px;
+    border-top: 1px solid rgba(97, 97, 97, 0.5);
+    border-bottom: 1px solid rgba(97, 97, 97, 0.5);
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.opções {
+    display: flex;
+    width: 162px;
+    height: 66px;
+    flex-direction: column;
+}
+
+.seta-direita,
+.seta-esquerda {
+    width: 8px;
+    height: 20px;
+    color: #33323d;
+    position: absolute;
+    top: 1920px;
+
+}
+
+.proximo,
+.anterior {
+    font-size: 16px;
+    color: #33323D;
+    opacity: 0.5;
+    width: 302px;
+    height: 100px;
+}
+
+.seta-direita {
+    left: 1230px;
+}
+
+.seta-esquerda {
+    left: 100px;
+}

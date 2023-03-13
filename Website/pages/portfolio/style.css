@@ -1,0 +1,80 @@
+.hero {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.img-left {
+    display: flex;
+    width: 540px;
+    height: 500px;
+}
+
+.text-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.titulo {
+    width: 400px;
+    color: rgba(51, 50, 61, 1);
+    font-size: 40px;
+    font-family: Ibarra Real Nova;
+}
+
+.descrição {
+    width: 370px;
+    height: 120px;
+    color: rgba(51, 50, 61, 1);
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.botao-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 48px;
+    background-color: #ffffff;
+    color: #33323d;
+    border: 1px solid rgb(51, 50, 61);
+}
+
+.bookmark {
+    display: flex;
+    margin-top: 60px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.img-right {
+    display: flex;
+    width: 540px;
+    height: 500px;
+}
+
+.insure {
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.fylo {
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+    justify-content: center;
+}
